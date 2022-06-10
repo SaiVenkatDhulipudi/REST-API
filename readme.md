@@ -1,1 +1,1 @@
-hi i am readme.md
+Added an API with is_even and is_prime functions
