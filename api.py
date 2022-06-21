@@ -9,7 +9,7 @@ helper["isprime/int"]="returns if a number is prime or not"
 def home():
     return jsonify(helper) 
 
-@app.route('/iseven/<int:n>')
+@app.route('/iseven/<int:n>' methods=["POST"])
 def iseven(n):
     if not n&1:
         return '{} is even'.format(n)
